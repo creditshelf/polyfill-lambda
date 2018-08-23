@@ -3,8 +3,8 @@ service: polyfill
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: production
-  region: us-west-2
+  stage: prod
+  region: eu-central-1
 
 package:
   exclude:
